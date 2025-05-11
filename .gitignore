@@ -1,0 +1,66 @@
+# Dart & Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+generated_plugin_registrant.dart
+#flutter sdk
+flutter/
+temp/
+# Flutter specific
+.flutter-*
+.melos_tool/
+
+# iOS (if present)
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/
+ios/Flutter/App.framework
+ios/Flutter/engine/
+
+# Android
+android/.gradle/
+android/.idea/
+android/local.properties
+android/app/build/
+android/app/.cxx/
+android/build/
+android/captures/
+
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+*.iml
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+*.jks
+
+# VS Code
+.vscode/
+
+# Mac/Linux
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Coverage
+coverage/
+
+# Other temporary files
+*.log
+*.tmp
+*.swp
+*.lock
